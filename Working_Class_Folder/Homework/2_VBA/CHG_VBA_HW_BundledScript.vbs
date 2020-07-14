@@ -38,7 +38,7 @@ Application.ScreenUpdating = False
 '' additional attempt to get around this bug, to no avail
 '' target_range = sSheet.Range("K2", Cells(rows.Count, "K").End(xlUp))
 
-target_range = ActiveSheet.UsedRange.rows.Count
+target_range = Cells(Rows.Count, 1).End(xlUp).Row
 
 '' The code below is used to Title the spreadsheet with our new
 '' Columns
@@ -109,7 +109,7 @@ Application.ScreenUpdating = False
 
 max = 0
 
-target_range = ActiveSheet.UsedRange.rows.Count
+target_range = Cells(Rows.Count, 1).End(xlUp).Row
 
     For i = 2 To target_range
 
@@ -129,8 +129,6 @@ target_range = ActiveSheet.UsedRange.rows.Count
         End If
         
     Next i
-    
-Next
 
 Application.ScreenUpdating = True
     
@@ -144,7 +142,7 @@ Application.ScreenUpdating = False
 
 min = 0
 
-target_range = ActiveSheet.UsedRange.rows.Count
+target_range = Cells(Rows.Count, 1).End(xlUp).Row
 
 For i = 2 To target_range
 

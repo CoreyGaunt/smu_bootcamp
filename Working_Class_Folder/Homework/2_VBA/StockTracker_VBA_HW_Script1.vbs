@@ -13,7 +13,7 @@ Dim last_row As Long
 '' Set range variables - I have done this so I do not have to worry
 '' about row count in the spreadsheet
 
-target_range = ActiveSheet.UsedRange.rows.Count
+target_range = Cells(Rows.Count, 1).End(xlUp).Row
 
 '' The code below is used to Title the spreadsheet with our new
 '' Columns

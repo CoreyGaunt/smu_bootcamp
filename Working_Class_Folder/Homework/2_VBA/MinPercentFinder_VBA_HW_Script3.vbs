@@ -6,7 +6,7 @@ Application.ScreenUpdating = False
 
 min = 0
 
-target_range = ActiveSheet.UsedRange.rows.Count
+target_range = Cells(Rows.Count, 1).End(xlUp).Row
 
 For i = 2 To target_range
 
