@@ -1,19 +1,16 @@
-# Dataset: sardine.dat
+# Description
 
-Source: F.N. Clark (1936). "Variations in the Number of Vertebrae in Sardine,
-Sardinops caerulea (Girard)", Copeia, Vol. 1936, #3, pp.147-150.
+Studies conducted at the University of Melbourne indicate that there may be a difference between the pain thresholds of blonds and brunettes. Men and women of various ages were divided into four categories according to hair colour: light blond, dark blond, light brunette, and dark brunette. The purpose of the experiment was to determine whether hair colour is related to the amount of pain produced by common types of mishaps and assorted types of trauma. Each person in the experiment was given a pain threshold score based on his or her performance in a pain sensitivity test (the higher the score, the higher the person’s pain tolerance).
 
-Description: Number of Vertebrae and Location of 12858 adult sardines caught
-in the Pacific.
+Variable      Values
+HairColour    LightBlond, DarkBlond, LightBrunette or DarkBrunette
+Pain          Pain threshold score
+Download
+Data file (tab-delimited text)
 
-Locations:
-1=Alaska
-2=British Columbia
-3=San Francisco
-4=Monterey
-5=San Pedro
-6=San Diego
+Source
+Family Weekly, Gainesville, Sun, Gainesville, Florida, February 5, 1978.
 
-Variables/Columns
-Location   8
-Number of Vertebrae   15-16
+McClave, J. T., and Dietrich II, F. H. (1991). Statistics. Dellen Publishing, San Francisco, Exercise 10.20.
+Analysis
+Pain threshold decreases as hair darkness increases (blonds are tougher!). Light blonds are significantly different from both brunette categories. Other contrasts are not significant.
